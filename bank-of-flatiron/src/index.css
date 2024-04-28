@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.header {
+  background-color: #5e02cf;
+  color: #ffffff;
+  padding: 0.1rem;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0.5rem;
+  width: auto;
+}
+.search {
+  display: flex;
+  margin: 0.5rem;
+  padding: 1rem;
+  border: #c1bbbb solid 1px;
+  border-radius: 5px;
+  width: auto;
+  position: relative;
+}
+.search input {
+  border: none;
+  position: absolute;
+  outline: none;
+  justify-content: left;
+  margin-top: 10px;
+}
